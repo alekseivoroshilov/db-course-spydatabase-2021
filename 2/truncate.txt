@@ -1,0 +1,21 @@
+truncate table main_office.med_record restart identity cascade;
+
+truncate table main_office.agent_mission restart identity cascade;
+
+truncate table main_office.agent restart identity cascade;
+
+truncate table main_office.loot restart identity cascade;
+
+truncate table main_office.mission_result restart identity cascade;
+
+truncate table main_office.mission restart identity cascade;
+
+truncate table main_office.operator restart identity cascade;
+
+truncate table main_office.unit_profile restart identity cascade;
+
+truncate table main_office.person restart identity cascade;
+
+truncate table main_office.item restart identity cascade;
+
+truncate table main_office.pack restart identity cascade;
